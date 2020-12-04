@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6eb5db3e-1484-439b-8d75-3eda4b2b7d11" name="Default Changelist" comment="Added (failing) test for #1">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/1/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/1/input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/1/test_one.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/__init__.py" afterDir="false" />
+    <list default="true" id="6eb5db3e-1484-439b-8d75-3eda4b2b7d11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test/1/real_input" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/1/input" beforeDir="false" afterPath="$PROJECT_DIR$/test/1/test_input" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/1/test_one.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/1/test_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,8 +148,16 @@
       <option name="presentableId" value="Default" />
       <updated>1607114120173</updated>
       <workItem from="1607114121263" duration="1454000" />
-      <workItem from="1607115587053" duration="1946000" />
+      <workItem from="1607115587053" duration="2502000" />
     </task>
+    <task id="LOCAL-00001" summary="Added (failing) test for #1">
+      <created>1607117540259</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607117540259</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +184,10 @@
       <screen x="0" y="0" width="5120" height="1440" />
     </state>
     <state x="2079" y="196" width="2142" height="993" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.5120.1440@0.0.5120.1440" timestamp="1607117159952" />
+    <state x="2010" y="485" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607118032762">
+      <screen x="0" y="0" width="5120" height="1440" />
+    </state>
+    <state x="2010" y="485" key="#com.intellij.fileTypes.FileTypeChooser/0.0.5120.1440@0.0.5120.1440" timestamp="1607118032762" />
     <state x="1731" y="635" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1607114807148">
       <screen x="0" y="0" width="5120" height="1440" />
     </state>
@@ -187,41 +196,45 @@
       <screen x="0" y="0" width="5120" height="1440" />
     </state>
     <state x="0" y="0" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.5120.1440@0.0.5120.1440" timestamp="1607116177573" />
-    <state x="1840" y="201" key="CommitChangelistDialog2" timestamp="1607117523605">
+    <state x="1840" y="201" key="CommitChangelistDialog2" timestamp="1607117540200">
       <screen x="0" y="0" width="5120" height="1440" />
     </state>
-    <state x="1840" y="201" key="CommitChangelistDialog2/0.0.5120.1440@0.0.5120.1440" timestamp="1607117523605" />
+    <state x="1840" y="201" key="CommitChangelistDialog2/0.0.5120.1440@0.0.5120.1440" timestamp="1607117540200" />
     <state x="2885" y="408" key="FileChooserDialogImpl" timestamp="1607114890697">
       <screen x="0" y="0" width="5120" height="1440" />
     </state>
     <state x="2885" y="408" key="FileChooserDialogImpl/0.0.5120.1440@0.0.5120.1440" timestamp="1607114890697" />
-    <state width="2290" height="311" key="GridCell.Tab.0.bottom" timestamp="1607117443330">
+    <state width="2290" height="310" key="GridCell.Tab.0.bottom" timestamp="1607118073997">
       <screen x="0" y="0" width="5120" height="1440" />
     </state>
-    <state width="2290" height="311" key="GridCell.Tab.0.bottom/0.0.5120.1440@0.0.5120.1440" timestamp="1607117443330" />
-    <state width="2290" height="311" key="GridCell.Tab.0.center" timestamp="1607117443329">
+    <state width="2290" height="310" key="GridCell.Tab.0.bottom/0.0.5120.1440@0.0.5120.1440" timestamp="1607118073997" />
+    <state width="2290" height="310" key="GridCell.Tab.0.center" timestamp="1607118073996">
       <screen x="0" y="0" width="5120" height="1440" />
     </state>
-    <state width="2290" height="311" key="GridCell.Tab.0.center/0.0.5120.1440@0.0.5120.1440" timestamp="1607117443329" />
-    <state width="2290" height="311" key="GridCell.Tab.0.left" timestamp="1607117443328">
+    <state width="2290" height="310" key="GridCell.Tab.0.center/0.0.5120.1440@0.0.5120.1440" timestamp="1607118073996" />
+    <state width="2290" height="310" key="GridCell.Tab.0.left" timestamp="1607118073995">
       <screen x="0" y="0" width="5120" height="1440" />
     </state>
-    <state width="2290" height="311" key="GridCell.Tab.0.left/0.0.5120.1440@0.0.5120.1440" timestamp="1607117443328" />
-    <state width="2290" height="311" key="GridCell.Tab.0.right" timestamp="1607117443330">
+    <state width="2290" height="310" key="GridCell.Tab.0.left/0.0.5120.1440@0.0.5120.1440" timestamp="1607118073995" />
+    <state width="2290" height="310" key="GridCell.Tab.0.right" timestamp="1607118073996">
       <screen x="0" y="0" width="5120" height="1440" />
     </state>
-    <state width="2290" height="311" key="GridCell.Tab.0.right/0.0.5120.1440@0.0.5120.1440" timestamp="1607117443330" />
+    <state width="2290" height="310" key="GridCell.Tab.0.right/0.0.5120.1440@0.0.5120.1440" timestamp="1607118073996" />
     <state x="2534" y="255" key="SettingsEditor" timestamp="1607116180785">
       <screen x="0" y="0" width="5120" height="1440" />
     </state>
     <state x="2534" y="255" key="SettingsEditor/0.0.5120.1440@0.0.5120.1440" timestamp="1607116180785" />
+    <state x="1841" y="369" key="Vcs.Push.Dialog.v2" timestamp="1607117543494">
+      <screen x="0" y="0" width="5120" height="1440" />
+    </state>
+    <state x="1841" y="369" key="Vcs.Push.Dialog.v2/0.0.5120.1440@0.0.5120.1440" timestamp="1607117543494" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/aoc2020$Unittests.coverage" NAME="Unittests Coverage Results" MODIFIED="1607117443322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/aoc2020$Unittests.coverage" NAME="Unittests Coverage Results" MODIFIED="1607118073988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/aoc2020$Unittests_for_1_SolverTest.coverage" NAME="Unittests for 1.SolverTest Coverage Results" MODIFIED="1607114946241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/1" />
     <SUITE FILE_PATH="coverage/aoc2020$Unittests_in_aoc2020.coverage" NAME="Unittests for unittest Coverage Results" MODIFIED="1607114939708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/aoc2020$Unittests_for_test_1_SolverTest.coverage" NAME="Unittests for test_1.SolverTest Coverage Results" MODIFIED="1607115939967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/1" />
