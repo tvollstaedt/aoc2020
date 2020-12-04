@@ -1,4 +1,7 @@
-def part1(input):
+from typing import List
+
+
+def part1(input: List[str]):
     for i in input:
         for j in input:
             if int(i) + int(j) == 2020:
@@ -6,7 +9,7 @@ def part1(input):
     return 0
 
 
-def part2(input):
+def part2(input: List[str]):
     for i in input:
         for j in input:
             for k in input:
