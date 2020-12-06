@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eb5db3e-1484-439b-8d75-3eda4b2b7d11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/4/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/4/real_input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/4/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/4/test_input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/5/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/5/real_input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/5/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/5/test_input" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,13 +71,6 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/test/_1" />
-      <recent name="$PROJECT_DIR$/test" />
-      <recent name="$PROJECT_DIR$/foo" />
-      <recent name="$PROJECT_DIR$/1" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/test" />
@@ -85,8 +78,28 @@
       <recent name="$PROJECT_DIR$/foo" />
       <recent name="$PROJECT_DIR$/1" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/test/_1" />
+      <recent name="$PROJECT_DIR$/test" />
+      <recent name="$PROJECT_DIR$/foo" />
+      <recent name="$PROJECT_DIR$/1" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test.4.test.SolverTest">
+  <component name="RunManager" selected="Python tests.Unittests for test.SolverTest (2)">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Unittests for test.4.test.SolverTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="aoc2020" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -118,12 +131,12 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test.SolverTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test.SolverTest (2)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="aoc2020" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -181,19 +194,19 @@
     </configuration>
     <list>
       <item itemvalue="Python tests.Unittests" />
-      <item itemvalue="Python tests.Unittests for test.SolverTest" />
       <item itemvalue="Python tests.Unittests in 3" />
       <item itemvalue="Python tests.Unittests in test.py" />
       <item itemvalue="Python tests.Unittests for test.SolverTest (1)" />
       <item itemvalue="Python tests.Unittests for test.4.test.SolverTest" />
+      <item itemvalue="Python tests.Unittests for test.SolverTest (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test.SolverTest (2)" />
         <item itemvalue="Python tests.Unittests for test.4.test.SolverTest" />
         <item itemvalue="Python tests.Unittests for test.SolverTest (1)" />
         <item itemvalue="Python tests.Unittests in test.py" />
         <item itemvalue="Python tests.Unittests in 3" />
-        <item itemvalue="Python tests.Unittests for test.SolverTest" />
       </list>
     </recent_temporary>
   </component>
@@ -208,6 +221,7 @@
       <workItem from="1607114121263" duration="1454000" />
       <workItem from="1607115587053" duration="11288000" />
       <workItem from="1607177188290" duration="23279000" />
+      <workItem from="1607287073501" duration="6330000" />
     </task>
     <task id="LOCAL-00001" summary="Added (failing) test for #1">
       <created>1607117540259</created>
@@ -251,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607128361061</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary=":sparkles: Solved day #4">
+      <created>1607287088613</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607287088613</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +288,8 @@
     <MESSAGE value=":sparkles: Solved day #2" />
     <MESSAGE value=":sparkles: Added tests for day #3" />
     <MESSAGE value=":sparkles: Solved day #3" />
-    <option name="LAST_COMMIT_MESSAGE" value=":sparkles: Solved day #3" />
+    <MESSAGE value=":sparkles: Solved day #4" />
+    <option name="LAST_COMMIT_MESSAGE" value=":sparkles: Solved day #4" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -295,14 +317,14 @@
       <screen x="0" y="0" width="5120" height="1440" />
     </state>
     <state x="0" y="0" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.5120.1440@0.0.5120.1440" timestamp="1607116177573" />
-    <state x="3449" y="617" width="997" height="730" key="#xdebugger.evaluate" timestamp="1607221327955">
+    <state x="3449" y="617" width="997" height="730" key="#xdebugger.evaluate" timestamp="1607290371844">
       <screen x="0" y="0" width="5120" height="1440" />
     </state>
-    <state x="3449" y="617" width="997" height="730" key="#xdebugger.evaluate/0.0.5120.1440@0.0.5120.1440" timestamp="1607221327955" />
-    <state x="1840" y="201" key="CommitChangelistDialog2" timestamp="1607128361032">
+    <state x="3449" y="617" width="997" height="730" key="#xdebugger.evaluate/0.0.5120.1440@0.0.5120.1440" timestamp="1607290371844" />
+    <state x="1840" y="201" key="CommitChangelistDialog2" timestamp="1607287088523">
       <screen x="0" y="0" width="5120" height="1440" />
     </state>
-    <state x="1840" y="201" key="CommitChangelistDialog2/0.0.5120.1440@0.0.5120.1440" timestamp="1607128361032" />
+    <state x="1840" y="201" key="CommitChangelistDialog2/0.0.5120.1440@0.0.5120.1440" timestamp="1607287088523" />
     <state width="1746" height="561" key="DebuggerActiveHint" timestamp="1607212687059">
       <screen x="0" y="0" width="5120" height="1440" />
     </state>
@@ -311,22 +333,22 @@
       <screen x="0" y="0" width="5120" height="1440" />
     </state>
     <state x="2885" y="408" key="FileChooserDialogImpl/0.0.5120.1440@0.0.5120.1440" timestamp="1607114890697" />
-    <state width="1756" height="480" key="GridCell.Tab.0.bottom" timestamp="1607223081099">
+    <state width="1756" height="465" key="GridCell.Tab.0.bottom" timestamp="1607293963143">
       <screen x="0" y="0" width="5120" height="1440" />
     </state>
-    <state width="1756" height="480" key="GridCell.Tab.0.bottom/0.0.5120.1440@0.0.5120.1440" timestamp="1607223081099" />
-    <state width="1756" height="480" key="GridCell.Tab.0.center" timestamp="1607223081098">
+    <state width="1756" height="465" key="GridCell.Tab.0.bottom/0.0.5120.1440@0.0.5120.1440" timestamp="1607293963143" />
+    <state width="1756" height="465" key="GridCell.Tab.0.center" timestamp="1607293963142">
       <screen x="0" y="0" width="5120" height="1440" />
     </state>
-    <state width="1756" height="480" key="GridCell.Tab.0.center/0.0.5120.1440@0.0.5120.1440" timestamp="1607223081098" />
-    <state width="1756" height="480" key="GridCell.Tab.0.left" timestamp="1607223081097">
+    <state width="1756" height="465" key="GridCell.Tab.0.center/0.0.5120.1440@0.0.5120.1440" timestamp="1607293963142" />
+    <state width="1756" height="465" key="GridCell.Tab.0.left" timestamp="1607293963141">
       <screen x="0" y="0" width="5120" height="1440" />
     </state>
-    <state width="1756" height="480" key="GridCell.Tab.0.left/0.0.5120.1440@0.0.5120.1440" timestamp="1607223081097" />
-    <state width="1756" height="480" key="GridCell.Tab.0.right" timestamp="1607223081098">
+    <state width="1756" height="465" key="GridCell.Tab.0.left/0.0.5120.1440@0.0.5120.1440" timestamp="1607293963141" />
+    <state width="1756" height="465" key="GridCell.Tab.0.right" timestamp="1607293963142">
       <screen x="0" y="0" width="5120" height="1440" />
     </state>
-    <state width="1756" height="480" key="GridCell.Tab.0.right/0.0.5120.1440@0.0.5120.1440" timestamp="1607223081098" />
+    <state width="1756" height="465" key="GridCell.Tab.0.right/0.0.5120.1440@0.0.5120.1440" timestamp="1607293963142" />
     <state x="2534" y="255" key="SettingsEditor" timestamp="1607116180785">
       <screen x="0" y="0" width="5120" height="1440" />
     </state>
@@ -335,10 +357,10 @@
       <screen x="0" y="0" width="5120" height="1440" />
     </state>
     <state width="623" height="498" key="SwitcherDM/0.0.5120.1440@0.0.5120.1440" timestamp="1607127681885" />
-    <state x="1841" y="369" key="Vcs.Push.Dialog.v2" timestamp="1607128362041">
+    <state x="1841" y="369" key="Vcs.Push.Dialog.v2" timestamp="1607287089927">
       <screen x="0" y="0" width="5120" height="1440" />
     </state>
-    <state x="1841" y="369" key="Vcs.Push.Dialog.v2/0.0.5120.1440@0.0.5120.1440" timestamp="1607128362041" />
+    <state x="1841" y="369" key="Vcs.Push.Dialog.v2/0.0.5120.1440@0.0.5120.1440" timestamp="1607287089927" />
     <state x="251" y="337" key="run.anything.popup" timestamp="1607217894848">
       <screen x="0" y="0" width="5120" height="1440" />
     </state>
@@ -368,6 +390,7 @@
     <SUITE FILE_PATH="coverage/aoc2020$Unittests_in_aoc2020.coverage" NAME="Unittests for unittest Coverage Results" MODIFIED="1607114939708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/aoc2020$Unittests_for_test_1_SolverTest.coverage" NAME="Unittests for test_1.SolverTest Coverage Results" MODIFIED="1607115939967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/1" />
     <SUITE FILE_PATH="coverage/aoc2020$Unittests_for_test_SolverTest.coverage" NAME="Unittests for test.SolverTest Coverage Results" MODIFIED="1607121879605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/2" />
+    <SUITE FILE_PATH="coverage/aoc2020$Unittests_for_test_SolverTest__2_.coverage" NAME="Unittests for test.SolverTest (2) Coverage Results" MODIFIED="1607293963135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/5" />
     <SUITE FILE_PATH="coverage/aoc2020$Unittests_for_test_4_test_SolverTest.coverage" NAME="Unittests for test.4.test.SolverTest Coverage Results" MODIFIED="1607222755947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
